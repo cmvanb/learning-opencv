@@ -1,3 +1,5 @@
+import cv2
+
 class WindowManager(object):
     def __init__(self, windowName, keypressCallback = None):
         self.keypressCallback = keypressCallback
