@@ -4,6 +4,7 @@ import os
 
 # Construct image.
 #-------------------------------------------------------------------------------
+
 # img = np.zeros((5, 3), dtype=np.uint8)
 # img = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
 #
@@ -12,16 +13,19 @@ import os
 
 # Convert image.
 #-------------------------------------------------------------------------------
+
 # img = cv2.imread('assets/graf3.png')
 # cv2.imwrite('output/graf3.jpg', img)
 
 # Convert image to grayscale.
 #-------------------------------------------------------------------------------
+
 # img = cv2.imread('assets/graf3.png', cv2.IMREAD_GRAYSCALE)
 # cv2.imwrite('output/graf3.jpg', img)
 
 # Convert random bytes into grayscale and BGR images.
 #-------------------------------------------------------------------------------
+
 # random_byte_array = bytearray(os.urandom(120000))
 # np_array = np.array(random_byte_array)
 #
@@ -33,12 +37,14 @@ import os
 
 # Maximize image blue channel.
 #-------------------------------------------------------------------------------
+
 # img = cv2.imread('assets/lena.jpg')
 # img[:, :, 0] = 255
 # cv2.imwrite('output/blue_lena.jpg', img)
 
 # Operate on region of interest.
 #-------------------------------------------------------------------------------
+
 # img = cv2.imread('assets/lena.jpg')
 # print(img.shape)
 # print(img.size)
@@ -48,6 +54,7 @@ import os
 
 # Convert video format.
 #-------------------------------------------------------------------------------
+
 # vidcap = cv2.VideoCapture('assets/Megamind.avi')
 # fps = vidcap.get(cv2.CAP_PROP_FPS)
 # size = (int(vidcap.get(cv2.CAP_PROP_FRAME_WIDTH)),
