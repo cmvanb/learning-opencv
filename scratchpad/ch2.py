@@ -112,6 +112,7 @@ windowName = 'display camera frames'
 
 capture = cv2.VideoCapture(0)
 cv2.namedWindow(windowName)
+cv2.namedWindow(windowName)
 cv2.setMouseCallback(windowName, onMouse)
 
 success, frame = capture.read()

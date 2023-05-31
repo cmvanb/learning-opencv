@@ -23,7 +23,6 @@ class Cameo(object):
             frame = self._captureManager.frame
 
             if frame is not None:
-                # TODO: Filter the frame.
                 filters.strokeEdges(frame, frame)
                 self._curveFilter.apply(frame, frame)
                 pass
